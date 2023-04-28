@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import Home from './components/Home';
+import Contactus from './components/Contactus';
 import { useState } from 'react';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes >
         <Route exact  path="/about" element={<About/>}/>
         <Route exact  path="/home" element={<Home/>}/>
+        <Route exact  path="/contactus" element={<Contactus/>}/>
         <Route exact  path="/" element={<TextForm heading="Enter the text to analyse" />}/>
         
         {/* <Route path="/">

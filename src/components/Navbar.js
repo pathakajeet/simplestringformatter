@@ -17,7 +17,10 @@ export default function Navbar(props) {
         </li>
         <li className="nav-item">
         <Link className="nav-link" to="/about">About</Link>
-        </li>         
+        </li>     
+        <li className="nav-item">
+        <Link className="nav-link" to="/contactus">Contact us</Link>
+        </li>     
       </ul>    
 
       {/* <form className="form-inline my-2 my-lg-0">
